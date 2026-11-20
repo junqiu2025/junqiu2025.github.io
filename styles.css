@@ -1,0 +1,53 @@
+body {
+  width: min(54rem, 100% - 2rem);
+  margin: 2rem auto;
+  color: #212529;
+  background: #fff;
+  font: 0.9375rem/1.5 Roboto, Arial, sans-serif;
+}
+
+h1, h2 {
+  margin: 0 0 0.35rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 1.875rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #075ba7;
+  text-underline-offset: 0.12em;
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid #d5d5d5;
+}
+
+ol {
+  margin: 0.65rem 0 0;
+  padding-inline-start: 1.5rem;
+}
+
+li + li {
+  margin-top: 0.65rem;
+}
+
+footer {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #d5d5d5;
+  color: #555;
+  font-size: 0.8125rem;
+}
